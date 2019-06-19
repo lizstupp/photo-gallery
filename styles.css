@@ -1,0 +1,25 @@
+img {
+  width: 350px;
+  height: 350px;
+  justify-content: space-between;
+  border: 2px solid white;
+  padding: 5px;
+  margin-bottom: 2px;
+  filter: drop-shadow(10px 10px 12px yellow);
+}
+body {
+  background-color:#DEC3BE;
+  text-align: center;
+  justify-content: space-between;
+}
+@media screen and (max-width:900px){
+  body{
+    background: #FE4A49;
+  }
+  img {
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    filter:drop-shadow(8px 8px 10px yellow);
+  }
+}
